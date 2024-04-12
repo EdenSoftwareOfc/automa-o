@@ -1,0 +1,7 @@
+#JSGF V1.0;
+
+grammar comandos;
+
+public <comando> = (abrir google | abrir youtube | abrir calculadora | abrir configuração | abrir excel | abrir opera | abrir word | fechar google | fechar youtube | fechar calculadora | fechar configuração | fechar excel | fechar opera | fechar word);
+
+

@@ -1,0 +1,85 @@
+Language model created by QuickLM on Thu Feb  8 18:06:36 EST 2024
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 14 sentences and 11 words
+
+\data\
+ngram 1=11
+ngram 2=23
+ngram 3=28
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.2041 ABRIR -0.2430
+-1.7482 CALCULADORA -0.2430
+-1.7482 CHROME -0.2430
+-1.7482 CONFIGURAÃ§Ã£O -0.2430
+-1.7482 EXCEL -0.2430
+-1.2041 FECHAR -0.2430
+-1.7482 GOOGLE -0.2430
+-1.7482 WORD -0.2430
+-1.7482 YOUTUBE -0.2430
+
+\2-grams:
+-0.6021 <s> ABRIR -0.0000
+-0.6021 <s> FECHAR -0.0000
+-1.1461 ABRIR CALCULADORA 0.0000
+-1.1461 ABRIR CHROME 0.0000
+-1.1461 ABRIR CONFIGURAÃ§Ã£O 0.0000
+-1.1461 ABRIR EXCEL 0.0000
+-1.1461 ABRIR GOOGLE 0.0000
+-1.1461 ABRIR WORD 0.0000
+-1.1461 ABRIR YOUTUBE 0.0000
+-0.3010 CALCULADORA </s> -0.3010
+-0.3010 CHROME </s> -0.3010
+-0.3010 CONFIGURAÃ§Ã£O </s> -0.3010
+-0.3010 EXCEL </s> -0.3010
+-1.1461 FECHAR CALCULADORA 0.0000
+-1.1461 FECHAR CHROME 0.0000
+-1.1461 FECHAR CONFIGURAÃ§Ã£O 0.0000
+-1.1461 FECHAR EXCEL 0.0000
+-1.1461 FECHAR GOOGLE 0.0000
+-1.1461 FECHAR WORD 0.0000
+-1.1461 FECHAR YOUTUBE 0.0000
+-0.3010 GOOGLE </s> -0.3010
+-0.3010 WORD </s> -0.3010
+-0.3010 YOUTUBE </s> -0.3010
+
+\3-grams:
+-1.1461 <s> ABRIR CALCULADORA
+-1.1461 <s> ABRIR CHROME
+-1.1461 <s> ABRIR CONFIGURAÃ§Ã£O
+-1.1461 <s> ABRIR EXCEL
+-1.1461 <s> ABRIR GOOGLE
+-1.1461 <s> ABRIR WORD
+-1.1461 <s> ABRIR YOUTUBE
+-1.1461 <s> FECHAR CALCULADORA
+-1.1461 <s> FECHAR CHROME
+-1.1461 <s> FECHAR CONFIGURAÃ§Ã£O
+-1.1461 <s> FECHAR EXCEL
+-1.1461 <s> FECHAR GOOGLE
+-1.1461 <s> FECHAR WORD
+-1.1461 <s> FECHAR YOUTUBE
+-0.3010 ABRIR CALCULADORA </s>
+-0.3010 ABRIR CHROME </s>
+-0.3010 ABRIR CONFIGURAÃ§Ã£O </s>
+-0.3010 ABRIR EXCEL </s>
+-0.3010 ABRIR GOOGLE </s>
+-0.3010 ABRIR WORD </s>
+-0.3010 ABRIR YOUTUBE </s>
+-0.3010 FECHAR CALCULADORA </s>
+-0.3010 FECHAR CHROME </s>
+-0.3010 FECHAR CONFIGURAÃ§Ã£O </s>
+-0.3010 FECHAR EXCEL </s>
+-0.3010 FECHAR GOOGLE </s>
+-0.3010 FECHAR WORD </s>
+-0.3010 FECHAR YOUTUBE </s>
+
+\end\
